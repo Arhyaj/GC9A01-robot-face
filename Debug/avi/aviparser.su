@@ -1,0 +1,6 @@
+../avi/aviparser.cpp:4:6:bool Avi::Init()	16	static
+../avi/aviparser.cpp:12:6:bool Avi::getFrame(uint8_t*, int&)	40	static
+../avi/aviparser.cpp:52:6:void Avi::readChunk(Avi::ChunkHeader*)	16	static
+../avi/aviparser.cpp:57:6:bool Avi::isMoviList(uint32_t)	24	static
+../avi/aviparser.cpp:72:6:bool Avi::readMovi(const char*)	32	static
+../avi/aviparser.cpp:107:6:void Avi::Close()	16	static

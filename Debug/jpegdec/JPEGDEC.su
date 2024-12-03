@@ -1,0 +1,59 @@
+../jpegdec/jpeg.h:680:6:void JPEG_setCropArea(JPEGIMAGE*, int, int, int, int)	32	static
+../jpegdec/jpeg.h:727:6:void JPEG_getCropArea(JPEGIMAGE*, int*, int*, int*, int*)	24	static
+../jpegdec/jpeg.h:733:6:void JPEG_setFramebuffer(JPEGIMAGE*, void*)	16	static
+../jpegdec/jpeg.h:741:16:int32_t readRAM(JPEGFILE*, uint8_t*, int32_t)	32	static
+../jpegdec/jpeg.h:755:16:int32_t readFLASH(JPEGFILE*, uint8_t*, int32_t)	32	static
+../jpegdec/jpeg.h:769:16:int32_t seekMem(JPEGFILE*, int32_t)	16	static
+../jpegdec/jpeg.h:817:12:int JPEGInit(JPEGIMAGE*)	16	static
+../jpegdec/jpeg.h:824:12:int JPEGGetHuffTables(uint8_t*, int, JPEGIMAGE*)	48	static
+../jpegdec/jpeg.h:1053:12:int JPEGMakeHuffTables(JPEGIMAGE*, int)	136	static
+../jpegdec/jpeg.h:1268:17:uint16_t TIFFSHORT(unsigned char*, int)	24	static
+../jpegdec/jpeg.h:1283:17:uint32_t TIFFLONG(unsigned char*, int)	24	static
+../jpegdec/jpeg.h:1298:12:int TIFFVALUE(unsigned char*, int)	24	static
+../jpegdec/jpeg.h:1332:13:void GetTIFFInfo(JPEGIMAGE*, int, int)	48	static
+../jpegdec/jpeg.h:1364:12:int JPEGGetSOS(JPEGIMAGE*, int*)	40	static
+../jpegdec/jpeg.h:1417:12:int JPEGFilter(uint8_t*, uint8_t*, int, uint8_t*)	40	static
+../jpegdec/jpeg.h:1530:13:void JPEGGetMoreData(JPEGIMAGE*)	32	static
+../jpegdec/jpeg.h:1558:12:int JPEGParseInfo(JPEGIMAGE*, int)	72	static
+../jpegdec/jpeg.h:1771:13:void JPEGFixQuantD(JPEGIMAGE*)	160	static
+../jpegdec/jpeg.h:1801:12:int JPEGDecodeMCU_P(JPEGIMAGE*, int, int*)	88	static
+../jpegdec/jpeg.h:2072:12:int JPEGDecodeMCU(JPEGIMAGE*, int, int*)	80	static
+../jpegdec/jpeg.h:2260:13:void JPEGIDCT(JPEGIMAGE*, int, int)	120	static
+../jpegdec/jpeg.h:2783:13:void JPEGPutMCU8BitGray(JPEGIMAGE*, int, int)	64	static
+../jpegdec/jpeg.h:3021:13:void JPEGPutMCUGray(JPEGIMAGE*, int, int)	56	static
+../jpegdec/jpeg.h:3085:13:void JPEGPixelLE(uint16_t*, int, int, int)	48	static
+../jpegdec/jpeg.h:3121:13:void JPEGPixelBE(uint16_t*, int, int, int)	48	static
+../jpegdec/jpeg.h:3136:13:void JPEGPixelRGB(uint32_t*, int, int, int)	48	static
+../jpegdec/jpeg.h:3162:13:void JPEGPixel2LE(uint16_t*, int, int, int, int)	48	static
+../jpegdec/jpeg.h:3205:13:void JPEGPixel2BE(uint16_t*, int32_t, int32_t, int32_t, int32_t)	48	static
+../jpegdec/jpeg.h:3224:13:void JPEGPixel2RGB(uint32_t*, int32_t, int32_t, int32_t, int32_t)	56	static
+../jpegdec/jpeg.h:3264:13:void JPEGPutMCU11(JPEGIMAGE*, int, int)	64	static
+../jpegdec/jpeg.h:3535:13:void JPEGPutMCU22(JPEGIMAGE*, int, int)	104	static
+../jpegdec/jpeg.h:4515:13:void JPEGPutMCU12(JPEGIMAGE*, int, int)	72	static
+../jpegdec/jpeg.h:4690:13:void JPEGPutMCU21(JPEGIMAGE*, int, int)	72	static
+../jpegdec/jpeg.h:4840:13:void JPEGDither(JPEGIMAGE*, int, int)	112	static
+../jpegdec/jpeg.h:4915:12:int DecodeJPEG(JPEGIMAGE*)	192	static
+../jpegdec/JPEGDEC.cpp:38:6:void JPEGDEC::setFramebuffer(void*)	16	static
+../jpegdec/JPEGDEC.cpp:43:6:void JPEGDEC::setPixelType(int)	16	static
+../jpegdec/JPEGDEC.cpp:51:6:void JPEGDEC::setMaxOutputSize(int)	16	static
+../jpegdec/JPEGDEC.cpp:60:5:int JPEGDEC::openRAM(uint8_t*, int, int (*)(JPEGDRAW*))	24	static
+../jpegdec/JPEGDEC.cpp:75:5:int JPEGDEC::openFLASH(const uint8_t*, int, int (*)(JPEGDRAW*))	24	static
+../jpegdec/JPEGDEC.cpp:90:5:int JPEGDEC::getOrientation()	16	static
+../jpegdec/JPEGDEC.cpp:95:5:int JPEGDEC::getLastError()	16	static
+../jpegdec/JPEGDEC.cpp:100:5:int JPEGDEC::getWidth()	16	static
+../jpegdec/JPEGDEC.cpp:105:5:int JPEGDEC::getHeight()	16	static
+../jpegdec/JPEGDEC.cpp:110:5:int JPEGDEC::hasThumb()	16	static
+../jpegdec/JPEGDEC.cpp:115:5:int JPEGDEC::getThumbWidth()	16	static
+../jpegdec/JPEGDEC.cpp:120:5:int JPEGDEC::getThumbHeight()	16	static
+../jpegdec/JPEGDEC.cpp:125:5:int JPEGDEC::getBpp()	16	static
+../jpegdec/JPEGDEC.cpp:130:5:int JPEGDEC::getSubSample()	16	static
+../jpegdec/JPEGDEC.cpp:135:6:void JPEGDEC::setCropArea(int, int, int, int)	32	static
+../jpegdec/JPEGDEC.cpp:140:6:void JPEGDEC::getCropArea(int*, int*, int*, int*)	32	static
+../jpegdec/JPEGDEC.cpp:145:5:int JPEGDEC::getJPEGType()	16	static
+../jpegdec/JPEGDEC.cpp:153:5:int JPEGDEC::open(const char*, void* (*)(const char*, int32_t*), void (*)(void*), int32_t (*)(JPEGFILE*, uint8_t*, int32_t), int32_t (*)(JPEGFILE*, int32_t), int (*)(JPEGDRAW*))	24	static
+../jpegdec/JPEGDEC.cpp:172:5:int JPEGDEC::open(void*, int, void (*)(void*), int32_t (*)(JPEGFILE*, uint8_t*, int32_t), int32_t (*)(JPEGFILE*, int32_t), int (*)(JPEGDRAW*))	24	static
+../jpegdec/JPEGDEC.cpp:214:6:void JPEGDEC::close()	16	static
+../jpegdec/JPEGDEC.cpp:226:5:int JPEGDEC::decode(int, int, int)	24	static
+../jpegdec/JPEGDEC.cpp:236:6:void JPEGDEC::setUserPointer(void*)	16	static
+../jpegdec/JPEGDEC.cpp:241:5:int JPEGDEC::decodeDither(int, int, uint8_t*, int)	24	static
+../jpegdec/JPEGDEC.cpp:250:5:int JPEGDEC::decodeDither(uint8_t*, int)	24	static

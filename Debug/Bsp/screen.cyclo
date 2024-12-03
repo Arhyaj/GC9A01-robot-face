@@ -1,0 +1,21 @@
+screen.cpp:3:6:void Screen::DEV_SPI_WRite(uint8_t)	1
+screen.cpp:8:6:void Screen::ChipSelect(bool)	2
+screen.cpp:13:6:void Screen::DCPin(bool)	2
+screen.cpp:18:6:void Screen::RstPin(bool)	2
+screen.cpp:23:5:int Screen::ModuleInit()	1
+screen.cpp:32:6:void Screen::DEV_Module_Exit()	1
+screen.cpp:42:6:void Screen::Reset()	1
+screen.cpp:52:6:void Screen::begin_Write()	1
+screen.cpp:56:6:void Screen::end_Write()	1
+screen.cpp:60:6:void Screen::WriteCommand(uint8_t)	1
+screen.cpp:66:6:void Screen::WriteData(uint8_t*, uint32_t, bool)	2
+screen.cpp:74:6:void Screen::WriteByte(uint8_t)	1
+screen.cpp:79:6:void Screen::InitReg(Screen::Orientation_t)	9
+screen.cpp:347:6:void Screen::LCDInit(Screen::Orientation_t)	1
+screen.cpp:357:6:void Screen::SetWindows(uint16_t, uint16_t, uint16_t, uint16_t)	1
+screen.cpp:373:6:void Screen::Clear(uint16_t)	3
+screen.cpp:390:6:void Screen::SetBackLight(uint16_t)	1
+screen.cpp:395:6:void Screen::WriteFrameBuffer(uint16_t, uint16_t, uint16_t, uint16_t, uint8_t*, uint32_t, bool)	2
+screen.cpp:407:6:void Screen::WriteColor(uint8_t*, uint32_t)	1
+screen.cpp:414:6:void Screen::WritePixel(uint16_t, uint16_t, uint16_t)	1
+screen.cpp:423:6:void Screen::WriteImage(uint16_t, uint16_t, uint16_t, uint16_t, const unsigned char*)	6

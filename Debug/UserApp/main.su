@@ -1,0 +1,8 @@
+../Bsp/screen.h:51:11:Screen::Screen(SPI_HandleTypeDef*)	16	static
+../avi/aviparser.h:30:2:Avi::Avi()	16	static
+../UserApp/main.cpp:23:6:void Main()	16	static
+../UserApp/main.cpp:45:6:void jpeg(uint8_t*, int)	16	static
+../UserApp/main.cpp:54:5:int DrawJpeg(JPEGDRAW*)	72	static
+../UserApp/main.cpp:80:6:void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef*)	16	static
+../UserApp/main.cpp:82:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../UserApp/main.cpp:82:1:cpp)	8	static

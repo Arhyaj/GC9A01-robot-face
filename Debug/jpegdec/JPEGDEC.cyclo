@@ -1,0 +1,59 @@
+jpeg.h:680:6:void JPEG_setCropArea(JPEGIMAGE*, int, int, int, int)	13
+jpeg.h:727:6:void JPEG_getCropArea(JPEGIMAGE*, int*, int*, int*, int*)	1
+jpeg.h:733:6:void JPEG_setFramebuffer(JPEGIMAGE*, void*)	1
+jpeg.h:741:16:int32_t readRAM(JPEGFILE*, uint8_t*, int32_t)	3
+jpeg.h:755:16:int32_t readFLASH(JPEGFILE*, uint8_t*, int32_t)	3
+jpeg.h:769:16:int32_t seekMem(JPEGFILE*, int32_t)	3
+jpeg.h:817:12:int JPEGInit(JPEGIMAGE*)	1
+jpeg.h:824:12:int JPEGGetHuffTables(uint8_t*, int, JPEGIMAGE*)	9
+jpeg.h:1053:12:int JPEGMakeHuffTables(JPEGIMAGE*, int)	31
+jpeg.h:1268:17:uint16_t TIFFSHORT(unsigned char*, int)	2
+jpeg.h:1283:17:uint32_t TIFFLONG(unsigned char*, int)	2
+jpeg.h:1298:12:int TIFFVALUE(unsigned char*, int)	6
+jpeg.h:1332:13:void GetTIFFInfo(JPEGIMAGE*, int, int)	8
+jpeg.h:1364:12:int JPEGGetSOS(JPEGIMAGE*, int*)	11
+jpeg.h:1417:12:int JPEGFilter(uint8_t*, uint8_t*, int, uint8_t*)	8
+jpeg.h:1530:13:void JPEGGetMoreData(JPEGIMAGE*)	6
+jpeg.h:1558:12:int JPEGParseInfo(JPEGIMAGE*, int)	39
+jpeg.h:1771:13:void JPEGFixQuantD(JPEGIMAGE*)	4
+jpeg.h:1801:12:int JPEGDecodeMCU_P(JPEGIMAGE*, int, int*)	36
+jpeg.h:2072:12:int JPEGDecodeMCU(JPEGIMAGE*, int, int*)	29
+jpeg.h:2260:13:void JPEGIDCT(JPEGIMAGE*, int, int)	14
+jpeg.h:2783:13:void JPEGPutMCU8BitGray(JPEGIMAGE*, int, int)	36
+jpeg.h:3021:13:void JPEGPutMCUGray(JPEGIMAGE*, int, int)	13
+jpeg.h:3085:13:void JPEGPixelLE(uint16_t*, int, int, int)	1
+jpeg.h:3121:13:void JPEGPixelBE(uint16_t*, int, int, int)	1
+jpeg.h:3136:13:void JPEGPixelRGB(uint32_t*, int, int, int)	7
+jpeg.h:3162:13:void JPEGPixel2LE(uint16_t*, int, int, int, int)	1
+jpeg.h:3205:13:void JPEGPixel2BE(uint16_t*, int32_t, int32_t, int32_t, int32_t)	1
+jpeg.h:3224:13:void JPEGPixel2RGB(uint32_t*, int32_t, int32_t, int32_t, int32_t)	13
+jpeg.h:3264:13:void JPEGPutMCU11(JPEGIMAGE*, int, int)	21
+jpeg.h:3535:13:void JPEGPutMCU22(JPEGIMAGE*, int, int)	74
+jpeg.h:4515:13:void JPEGPutMCU12(JPEGIMAGE*, int, int)	27
+jpeg.h:4690:13:void JPEGPutMCU21(JPEGIMAGE*, int, int)	29
+jpeg.h:4840:13:void JPEGDither(JPEGIMAGE*, int, int)	11
+jpeg.h:4915:12:int DecodeJPEG(JPEGIMAGE*)	91
+JPEGDEC.cpp:38:6:void JPEGDEC::setFramebuffer(void*)	1
+JPEGDEC.cpp:43:6:void JPEGDEC::setPixelType(int)	3
+JPEGDEC.cpp:51:6:void JPEGDEC::setMaxOutputSize(int)	2
+JPEGDEC.cpp:60:5:int JPEGDEC::openRAM(uint8_t*, int, int (*)(JPEGDRAW*))	1
+JPEGDEC.cpp:75:5:int JPEGDEC::openFLASH(const uint8_t*, int, int (*)(JPEGDRAW*))	1
+JPEGDEC.cpp:90:5:int JPEGDEC::getOrientation()	1
+JPEGDEC.cpp:95:5:int JPEGDEC::getLastError()	1
+JPEGDEC.cpp:100:5:int JPEGDEC::getWidth()	1
+JPEGDEC.cpp:105:5:int JPEGDEC::getHeight()	1
+JPEGDEC.cpp:110:5:int JPEGDEC::hasThumb()	1
+JPEGDEC.cpp:115:5:int JPEGDEC::getThumbWidth()	1
+JPEGDEC.cpp:120:5:int JPEGDEC::getThumbHeight()	1
+JPEGDEC.cpp:125:5:int JPEGDEC::getBpp()	1
+JPEGDEC.cpp:130:5:int JPEGDEC::getSubSample()	1
+JPEGDEC.cpp:135:6:void JPEGDEC::setCropArea(int, int, int, int)	1
+JPEGDEC.cpp:140:6:void JPEGDEC::getCropArea(int*, int*, int*, int*)	1
+JPEGDEC.cpp:145:5:int JPEGDEC::getJPEGType()	2
+JPEGDEC.cpp:153:5:int JPEGDEC::open(const char*, void* (*)(const char*, int32_t*), void (*)(void*), int32_t (*)(JPEGFILE*, uint8_t*, int32_t), int32_t (*)(JPEGFILE*, int32_t), int (*)(JPEGDRAW*))	2
+JPEGDEC.cpp:172:5:int JPEGDEC::open(void*, int, void (*)(void*), int32_t (*)(JPEGFILE*, uint8_t*, int32_t), int32_t (*)(JPEGFILE*, int32_t), int (*)(JPEGDRAW*))	1
+JPEGDEC.cpp:214:6:void JPEGDEC::close()	2
+JPEGDEC.cpp:226:5:int JPEGDEC::decode(int, int, int)	1
+JPEGDEC.cpp:236:6:void JPEGDEC::setUserPointer(void*)	1
+JPEGDEC.cpp:241:5:int JPEGDEC::decodeDither(int, int, uint8_t*, int)	1
+JPEGDEC.cpp:250:5:int JPEGDEC::decodeDither(uint8_t*, int)	1
